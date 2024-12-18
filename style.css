@@ -5,6 +5,7 @@ body {
   background-color: #000000;
   margin: 0 auto;
   box-sizing: border-box;
+  font-family: 'Chivo', sans-serif;
 }
 
 .navbar {
