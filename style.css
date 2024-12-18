@@ -1,23 +1,19 @@
-/* Base Responsive Styles */
 body {
   width: 100%;
   max-width: 1440px;
   min-height: 900px;
-  padding: 0 48px;
   background-color: #000000;
-  font-family: 'Chivo', sans-serif;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
-/* Navbar Responsiveness */
 .navbar {
   width: 100%;
   max-width: 1344px;
   height: auto;
   padding: 20px 0;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #000000;
 }
@@ -29,9 +25,7 @@ body {
 
 .navbar a {
   color: #FFFFFF;
-  text-decoration: none;
   padding: 12px;
-  font-family: 'Chivo', sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 32px;
@@ -55,7 +49,6 @@ body {
   transition: opacity 0.3s ease;
 }
 
-/* Container Responsiveness */
 .con {
   width: 100%;
   max-width: 1344px;
@@ -64,7 +57,6 @@ body {
   margin: 0 auto;
 }
 
-/* Landing Page Responsiveness */
 .landing_page {
   width: 100%;
   max-width: 1344px;
@@ -75,7 +67,6 @@ body {
 
 .landing_page > h1 {
   width: 100%;
-  font-family: Chivo;
   font-size: 120px;
   font-weight: 900;
   line-height: 120px;
@@ -91,7 +82,6 @@ body {
   object-fit: cover;
 }
 
-/* Project Grid Responsiveness */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -116,7 +106,6 @@ body {
 .project-info h3 {
   width: 100%;
   max-width: none;
-  font-family: Archivo;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -133,7 +122,6 @@ body {
   margin-left: 0;
 }
 
-/* About Section Responsiveness */
 .about {
   width: 100%;
   max-width: 1344px;
@@ -146,14 +134,12 @@ body {
   color: white;
   width: 100%;
   max-width: 672px;
-  font-family: Chivo;
   font-size: 48px;
   font-weight: 400;
   line-height: 52px;
   text-align: left;
 }
 
-/* Project Grid 2 Responsiveness */
 .project-grid2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -194,7 +180,6 @@ body {
   height: 24px;
 }
 
-/* Contact Section Responsiveness */
 .c {
   width: 100%;
   max-width: 1344px;
@@ -218,7 +203,6 @@ body {
 }
 
 .ins > .contact-form__title {
-  font-family: Chivo;
   font-size: 28px;
   font-weight: 900;
   line-height: 32px;
@@ -229,7 +213,6 @@ body {
 .ins > .contact-form__description {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
-  font-family: Archivo;
   font-weight: 500;
   text-align: center;
   color: #FFFFFF;
@@ -261,7 +244,7 @@ body {
 
 .contact-form__submit {
   display: block;
-  width: 100%;
+  width: 95%;
   padding: 1rem;
   background-color: #928DD3;
   color: white;
@@ -289,7 +272,6 @@ body {
   color: #ccc;
 }
 
-/* Footer Responsiveness */
 .footer {
   width: 100%;
   max-width: 1344px;
@@ -372,7 +354,6 @@ body {
   opacity: 1;
 }
 
-/* Media Queries for Responsiveness */
 @media screen and (max-width: 1200px) {
   body {
     padding: 0 24px;
@@ -450,40 +431,5 @@ body {
   .subscribe button {
     width: 100%;
     margin: 10px 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    padding: 0 12px;
-  }
-
-  .landing_page > h1 {
-    font-size: 36px;
-    line-height: 40px;
-  }
-
-  .navbar a {
-    font-size: 18px;
-  }
-
-  .project-info h3,
-  .project-info2 h3 {
-    font-size: 16px;
-  }
-
-  .project-info p,
-  .project-info2 p {
-    font-size: 12px;
-  }
-
-  .about p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-
-  .social-icons img {
-    width: 32px;
-    height: 32px;
   }
 }
