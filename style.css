@@ -6,6 +6,9 @@ body {
   margin: 0 auto;
   font-family: 'Chivo', sans-serif;
   overflow-x: hidden;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
 }
 
 img{
@@ -471,7 +474,9 @@ nav{
     font-size: 48px;
     line-height: 52px;
   }
-
+  .grid2 h1{
+    text-align: center;
+  }
   .contact-form__input {
     width: 40px;
     height: 48px;
@@ -505,7 +510,10 @@ nav{
   }
 
   .navbar nav {
+      display: flex;
       flex-direction: column;
+      justify-content: center;
+
       width: 100%;
   }
 
@@ -513,11 +521,15 @@ nav{
       margin: 10px 0;
       width: 100%;
       padding: 10px;
+      text-align: center;
   }
 
   .home > h1 {
     font-size: 48px;
     line-height: 52px;
+  }
+  .grid2 h1{
+    text-align: center;
   }
 
   .contact-form__input {
